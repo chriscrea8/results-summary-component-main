@@ -217,48 +217,8 @@ button:hover {
     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media screen and (max-width: 600px) {
 
-    .left-container {
-        padding: 30px 2px;
-        border-radius: 15px;
-    }
-
-    .left-container>h3 {
-        margin-top: -30px;
-    }
-
-    .details {
-        margin: 0px;
-        margin-top: -70px;
-    }
-
-
-
-    .header {
-        font-size: 1.2rem;
-    }
-
-    .list {
-        padding: 10px 5px;
-    }
-
-    .list-item,
-    .act-score {
-        font-size: .8rem;
-    }
-
-    .icon {
-        margin-right: 3px;
-    }
-
-    button {
-        padding: 10px;
-    }
-
-}
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 760px) {
 
     body {
         height: auto;
